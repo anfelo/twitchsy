@@ -1,0 +1,35 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Twitchsy</title>
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main">
+        <header>
+            <h1>Twitchsy</h1>
+            <p>by anfelo</p>
+            <form onSubmit="return false;">
+              <input type="text" class="search"/><button type="button" class="button">+</button>
+            </form>
+        </header>
+        <div class="actions">
+          <div class="action active"><p class="filter-all">All</p></div>
+          <div class="action"><p class="filter-online"><span class="ball green"></span> Online</p></div>
+          <div class="action"><p class="filter-offline"><span class="ball red"></span>Offline</p></div>
+        </div>
+        <div class="error">This is a test.</div>
+        <ul class="channels">
+        </ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+          crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
